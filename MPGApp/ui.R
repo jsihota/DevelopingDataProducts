@@ -10,7 +10,7 @@ shinyUI(fluidPage(
   # mpg and to specify whether outliers should be included
   sidebarLayout(
     sidebarPanel(
-      selectInput("variable", "Variable:",
+      selectInput("variable", "Select variable to see effect on MPG:",
                   c("Cylinders" = "cyl",
                     "Transmission" = "am",
                     "Gears" = "gear")),
